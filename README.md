@@ -9,7 +9,7 @@ Home assistant Sun card based on Google weather design
 - This card uses [Sun integration](https://www.home-assistant.io/integrations/sun/) so it needs to be enabled
 
 ## Install
-### HACS
+### HACS(Репозиторий в ариве - работать не будет)
 Home assistant Sun card is available by default on HACS directory. More info [here](https://hacs.xyz/).
 
 ### Manually
