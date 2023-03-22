@@ -8,39 +8,36 @@ Home assistant Sun card based on Google weather design
 ## Requirements
 - This card uses [Sun integration](https://www.home-assistant.io/integrations/sun/) so it needs to be enabled
 
-## Install
-### HACS(Репозиторий в ариве - работать не будет)
+## Установка
+### Через HACS(НЕ РАБОТАЕТ)
 Home assistant Sun card is available by default on HACS directory. More info [here](https://hacs.xyz/).
 
-### Manually
-1. Download the `home-assistant-sun-card.js` file from the [latest release available](https://github.com/AitorDB/home-assistant-sun-card/releases) and save it in your `configuration/www` folder.
-1. Go to `Configuration > Lovelace dashboard > Resources` in Home Assistant and click on `Add resource`.
-    1. Add `/local/community/home-assistant-sun-card.js` to the URL.
-    1. Choose `Javascript Module` as Resource type.
+### ВРУЧНУЮ
+1. Скачать файл `home-assistant-sun-card.js` с [latest release available](https://github.com/AitorDB/home-assistant-sun-card/releases) и сохранить его в папку `configuration/www`.
+1. В Home Assistant зайти в `Configuration > Lovelace dashboard > Resources` и нажать `Add resource`.
+    1. Добавить `/local/community/home-assistant-sun-card.js` в URL.
+    1. Выбрать `Javascript Module` в качестве "Resource type".
 
-## Set up
-### Using UI
-1. Go to your dashboard, enter in edit mode and click on `Add card`, you should be able to find `Custom: Sun card` in the list.
-1. Once in the UI editor you can modify the card behavior by adding some of the config that you will find below
+## Настойка
+### Через UI
+1. GЗайти в dashboard, включить "edit mode" и нажать `Add card`, найти в списке `Custom: Sun card`.
+1. В UI редакторе можно настроить параметры карточки добавляя параметры, которые описаны ниже.
 
-Note: If `Custom: Sun card` doesn't appear you will have to reload cleaning the cache.
+ВАЖНО: Если `Custom: Sun card` не появилась в списке карточек, необходимо почистить кэш браузера.
 
-### Using YAML
-1. You just need to add a new card with `type: 'custom:sun-card'` to your cards list and any of the config that you will find below if you want to customize more your card.
+### Через YAML
+1. Необходимо добавить новую карточку с параметром `type: 'custom:sun-card'`.
 
-Note: If you get an error similar to this `Custom element doesn't exist` you will have to reload cleaning the cache.
+Важно: Если появляется ошибка `Custom element doesn't exist`, необходимо почистить кэш браузера.
 
 ## Config
-| Name          | Accepted values      | Description                          | Default                                             |
-|---------------|----------------------|--------------------------------------|-----------------------------------------------------|
-| darkMode      | `boolean`            | Changes card colors to dark or light | Home assistant dark mode state                      |
-| language      | `string`<sup>1</sup> | Changes card language                | Home assistant language or english if not supported |
-| showAzimuth   | `boolean`            | Displays azimuth in the footer       | `false`                                             |
-| showElevation | `boolean`            | Displays elevation in the footer     | `false`                                             |
-| timeFormat    | `'12h'`/`'24h'`      | Displayed time format                | Locale based on Home assistant language             |
-| title         | `string`             | Card title                           | Doesn't display a title by default                  |         |
+| Название      | Принимаемое значение | Описание.                            | Параметр по умолчанию                                   |
+|---------------|----------------------|--------------------------------------|---------------------------------------------------------|
+| darkMode      | `boolean`            | Темный или светлый тип карточки.     | Использует параметры Home Assistant                     |
+| language      | `string`<sup>1</sup> | Язык карточки                        | Языка Home assistant или english если не поддерживается |
+| showAzimuth   | `boolean`            | Displays azimuth in the footer       | `false`                                                 |
+| showElevation | `boolean`            | Displays elevation in the footer     | `false`                                                 |
+| timeFormat    | `'12h'`/`'24h'`      | Displayed time format                | Locale based on Home assistant language                 |
+| title         | `string`             | Card title                           | Doesn't display a title by default                      |
 
-(<sup>1</sup>) Supported languages: `da`, `de`, `en`, `es`, `et`, `fi`, `fr`, `hu`, `it`, `nl`, `pl`, `pt-BR`, `ru`, `sl`, `sv`
-
-## Known issues
-- Home assistant seems to provide next events instead today's one 
+(<sup>1</sup>) Поддерживаемые языки: `da`, `de`, `en`, `es`, `et`, `fi`, `fr`, `hu`, `it`, `nl`, `pl`, `pt-BR`, `ru`, `sl`, `sv`
