@@ -35,9 +35,9 @@ Home assistant Sun card доступна основном репозитории
 |---------------|----------------------|--------------------------------------|---------------------------------------------------------|
 | darkMode      | `boolean`            | Темный или светлый тип карточки.     | Использует параметры Home Assistant                     |
 | language      | `string`<sup>1</sup> | Язык карточки                        | Языка Home assistant или english если не поддерживается |
-| showAzimuth   | `boolean`            | Displays azimuth in the footer       | `false`                                                 |
-| showElevation | `boolean`            | Displays elevation in the footer     | `false`                                                 |
-| timeFormat    | `'12h'`/`'24h'`      | Displayed time format                | Locale based on Home assistant language                 |
-| title         | `string`             | Card title                           | Doesn't display a title by default                      |
+| showAzimuth   | `boolean`            | Отображать азимут в футере.          | `false`                                                 |
+| showElevation | `boolean`            | Отображать Возвышение в футере.      | `false`                                                 |
+| timeFormat    | `'12h'`/`'24h'`      | Отображаемый формат времени          | Использует параметры Home Assistant                     |
+| title         | `string`             | Заголовок карточки                   | Заголовок не отображается                               |
 
 (<sup>1</sup>) Поддерживаемые языки: `da`, `de`, `en`, `es`, `et`, `fi`, `fr`, `hu`, `it`, `nl`, `pl`, `pt-BR`, `ru`, `sl`, `sv`
