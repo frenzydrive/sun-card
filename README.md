@@ -2,15 +2,15 @@
 Home assistant Sun card based on Google weather design
 
 ## Preview
-![Light mode preview](https://user-images.githubusercontent.com/6829526/118412152-54d93900-b690-11eb-8b2b-e87b4cbcca7f.png)
+![Light mode preview](https://github.com/frenzydrive/sun-card/blob/main/preview/light.png?raw=true)
 ![Dark mode preview](https://github.com/frenzydrive/sun-card/blob/main/preview/dark.png?raw=true)
 
 ## Requirements
 - This card uses [Sun integration](https://www.home-assistant.io/integrations/sun/) so it needs to be enabled
 
 ## Установка
-### Через HACS(НЕ РАБОТАЕТ)
-Home assistant Sun card is available by default on HACS directory. More info [here](https://hacs.xyz/).
+### Через HACS(БОЛЬШЕ НЕ РАБОТАЕТ)
+Home assistant Sun card доступна основном репозитории HACS. Подробная информация [тут](https://hacs.xyz/).
 
 ### ВРУЧНУЮ
 1. Скачать файл [home-assistant-sun-card.js](https://github.com/frenzydrive/sun-card/releases/tag/v0.1.4) и сохранить его в папку `configuration/www`.
