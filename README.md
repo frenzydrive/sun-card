@@ -6,7 +6,7 @@ Home assistant Sun card based on Google weather design
 ![Dark mode preview](https://github.com/frenzydrive/sun-card/blob/main/preview/dark.png?raw=true)
 
 ## Requirements
-- Для работы карточки необходима установленная [Sun integration](https://www.home-assistant.io/integrations/sun/)
+- Для работы карточки необходима установленная интеграция [Sun integration](https://www.home-assistant.io/integrations/sun/)
 
 ## Установка
 ### Через HACS(БОЛЬШЕ НЕ РАБОТАЕТ)
