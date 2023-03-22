@@ -13,7 +13,7 @@ Home assistant Sun card based on Google weather design
 Home assistant Sun card is available by default on HACS directory. More info [here](https://hacs.xyz/).
 
 ### ВРУЧНУЮ
-1. Скачать файл `home-assistant-sun-card.js` с [latest release available](https://github.com/AitorDB/home-assistant-sun-card/releases) и сохранить его в папку `configuration/www`.
+1. Скачать файл [home-assistant-sun-card.js](https://github.com/frenzydrive/sun-card/releases/tag/v0.1.4) и сохранить его в папку `configuration/www`.
 1. В Home Assistant зайти в `Configuration > Lovelace dashboard > Resources` и нажать `Add resource`.
     1. Добавить `/local/community/home-assistant-sun-card.js` в URL.
     1. Выбрать `Javascript Module` в качестве "Resource type".
