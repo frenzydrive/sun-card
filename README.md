@@ -6,7 +6,6 @@
 - Для работы карточки необходима установленная интеграция [Sun integration](https://www.home-assistant.io/integrations/sun/)
 
 ## Установка
-### ВРУЧНУЮ
 1. Скачать файл [home-assistant-sun-card.js](https://github.com/frenzydrive/sun-card/releases/tag/v0.1.4) и сохранить его в папку `configuration/www`.
 1. В Home Assistant зайти в `Configuration > Lovelace dashboard > Resources` и нажать `Add resource`.
     1. Добавить `/local/community/home-assistant-sun-card.js` в URL.
